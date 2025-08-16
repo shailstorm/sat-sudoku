@@ -64,3 +64,4 @@ watchfiles==1.0.5
 websockets==15.0.1
 yfinance==0.2.65
 gunicorn==23.0.0
+Flask==3.0.3
