@@ -123,8 +123,7 @@ def application(environ, start_response):
 
 
 if __name__ == "__main__":
-    PORT = 3001
-    print(f"starting server.  navigate to http://localhost:{PORT}/")
+    PORT = int(os.environ.get("PORT", 3001))
     with make_server("", PORT, application) as httpd:
         try:
             httpd.serve_forever()
