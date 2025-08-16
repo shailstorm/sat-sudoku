@@ -1,0 +1,3 @@
+([('desktop_app',
+   '/Users/shailstorm/Desktop/dev/sat_solver/dist/desktop_app',
+   'EXECUTABLE')],)
